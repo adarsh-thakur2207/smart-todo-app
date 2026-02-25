@@ -1,0 +1,117 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(135deg, #667eea, #764ba2);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+    background: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input{
+    padding: 10px;
+    width: 65%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+#addBtn{
+    padding: 10px 15px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+#addBtn:hover{
+   background: #43a047;
+}
+
+.completed{
+    background: #bab9b9;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+ ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+li{
+list-style: none;
+background: #eef2ff;
+margin-top: 10px;
+padding: 12px 15px;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.2s ease;
+}
+ 
+li:hover{
+    background: #eeeeee;
+    transform: scale(1.02);
+}
+
+li button{
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/* li button:hover{
+    background-color: #cc0000;
+} */
+
+ #completedList li{
+    background: #f0f0f0;
+    color: #888;
+    text-decoration: line-through;
+} 
+
+ #completedList li button{
+    background-color: #6c757d;
+} 
+
+ #completedList li button:hover{
+    background-color: #777;
+} 
+
+button{
+    background: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    opacity: 0.85;
+}
